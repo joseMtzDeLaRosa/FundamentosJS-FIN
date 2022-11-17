@@ -6,13 +6,14 @@ const producto = {
     disponible: true
 }
 
+
 const cliente = {
-    nombre: 'Juan',
+    nombre: 'jess',
     premium : true
 }
 
 const { nombre, precio, disponible } = producto
 const { nombre: nombreCliente, premium } = cliente
 
-console.log(nombre)
-console.log(nombreCliente)
+console.table(nombre)
+console.table(nombreCliente)
