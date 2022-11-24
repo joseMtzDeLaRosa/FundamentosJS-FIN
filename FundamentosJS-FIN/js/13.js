@@ -5,5 +5,5 @@ const sumar = function(numero = 0, numero2 = 0) {
     return numero + numero2
 }
 
-const resultado = sumar(30)
+const resultado = sumar(30,1)
 console.log(resultado)

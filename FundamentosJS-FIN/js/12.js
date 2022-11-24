@@ -17,6 +17,6 @@ function sumar(numero = 0, numero2 = 0) {
 }
 
 const {resultado, mensaje} = sumar(20, 30)
-
+//primero viaja a l funcion y la funcon dara los return 
 console.log(resultado)
 console.log(mensaje)

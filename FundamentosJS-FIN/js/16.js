@@ -5,24 +5,31 @@ const numeros = [10, 20, 30]
 nuevoArray = tecnologias.filter( tech => tech !== 'React')
 
 // Comprobar si un elemento existe en el array
-// const resultado = tecnologias.includes('GraphQL')
+const resultado = tecnologias.includes('GraphQL')
+console.log(resultado)
 
 // Some - Devuelve si al menos uno cumple la condición
-// const resultado = numeros.some( numero => numero > 15)
+ const resultadonum = numeros.some( numero => numero > 15)
+ console.log(resultadonum)
 
 // Find - Devuelve el primer elemento que cumpla la condicion
-// const resultado = numeros.find( numero => numero > 5)
+ const resultadofind = numeros.find( numero => numero > 5)
+ console.log(resultadofind)
 
 // Every - Retorna true o false si todos cumplen la condición
-// const resultado = numeros.every( numero => numero > 9)
+const resultadoevery = numeros.every( numero => numero > 9)
+console.log(resultadoevery)
 
 // Reduce - Acumulando en el total
-// const resultado = numeros.reduce( (total, numero) => numero + total, 0)
+const resultadoreduce = numeros.reduce( (total, numero) => numero + total, 0)
+console.log(resultadoreduce)
 
 // Filter - Crea un nuevo array en base a una condición
-// const resultado = tecnologias.filter( tech => tech === 'Node.js')
-// const resultado = numeros.filter( numero => numero !== 10)
-
+ const resultadoarr = tecnologias.filter( tech => tech === 'Node.js')
+ console.log(resultadoarr)
+ const resultadonumararrays = numeros.filter( numero => numero !== 10)
+ console.log(resultadonumararrays)
+ 
 tecnologias.forEach( (tech, index) => console.log(index))
 
 // Crear un nuevo array

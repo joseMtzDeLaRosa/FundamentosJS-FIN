@@ -9,7 +9,7 @@ const consultarAPI = async () => {
 
     const respuesta = await fetch(url)
     const resultado = await respuesta.json()
-    // console.log(resultado)
+    console.log(resultado)
 
     // console.log('Iniciando 2da consulta')
 
@@ -27,13 +27,14 @@ consultarAPI();
 const consultarAPI2 = async () => {
 
     const inicio = performance.now()
-
+    // retornar los dos olv olv aaj 
+    // cuando podran estar listos 
     const [respuesta, respuesta2 ] = await Promise.all([ fetch(url), fetch(url2) ])
     const resultado = await respuesta.json()
     const resultado2 = await respuesta2.json()
 
-    // console.log(resultado)
-    // console.log(resultado2)
+     console.log(resultado)
+     console.log(resultado2)
 
     const fin = performance.now()
 

@@ -5,8 +5,8 @@ const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']
 // tecnologias.push('GraphQL') // Añade al final del array
 // tecnologias.unshift('GraphQL') // Añade al final del array
 
-// const nuevoArreglo = [...tecnologias, 'GraphQL']
-// const nuevoArreglo = ['GraphQL', ...tecnologias]
+// const nuevoArreglo = [...tecnologias, 'GraphQL'] ... se uso para cerar la copia del arreglo y luego gragos graphql
+// const nuevoArreglo = ['NATIVE', ...tecnologias] po pone en la posicion 0 
 
 // Eliminar elementos del array
 // tecnologias.pop() // Elimina del final
@@ -20,11 +20,11 @@ const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']
 // Reemplazar del array
 // tecnologias[0] = 'GraphQL'
 
-const nuevoArray = tecnologias.map( function(tech) {
-    if(tech === 'HTML') {
+const nuevoArray = tecnologias.map( function(arreglo) {
+    if(arreglo === 'HTML') {
         return 'GraphQL'
     } else {
-        return tech
+        return arreglo
     }
 })
 

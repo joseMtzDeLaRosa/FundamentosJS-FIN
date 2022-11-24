@@ -12,3 +12,4 @@ const nuevoArray2 = tecnologias.filter( tech => tech !== 'React')
 
 // console.log(nuevoArray)
 console.log(nuevoArray2)
+//arrow
